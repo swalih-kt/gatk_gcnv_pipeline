@@ -8,8 +8,8 @@ A complete pipeline for germline copy number variant (gCNV) calling using GATK i
 
 | Step | Tool | Script |
 |------|------|--------|
-| 1 | PreprocessIntervals | gatk_PreprocessIntervals.txt |
-| 2 | AnnotateIntervals | gatk_AnnotateIntervals.txt |
+| 1 | PreprocessIntervals | `gatk_PreprocessIntervals.txt` |
+| 2 | AnnotateIntervals | `gatk_AnnotateIntervals.txt` |
 | 3 | CollectReadCounts | `gatk_collect_upt.sh` |
 | 4 | FilterIntervals | `gatk_filter.sh` |
 | 5 | ScatterIntervals | `gatk_scattr.sh` |
