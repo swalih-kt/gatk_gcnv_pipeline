@@ -1,0 +1,1 @@
+gatk PreprocessIntervals -R ~/ref/Homo_sapiens_assembly38.fasta -L targets.interval_list --bin-length 0 -imr OVERLAPPING_ONLY --padding 250 -O targets.preprocessed.interval_list
