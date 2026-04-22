@@ -1,0 +1,1 @@
+gatk AnnotateIntervals -L chr20XY.interval_list -R ref/Homo_sapiens_assembly38.fasta -imr OVERLAPPING_ONLY -O chr20XY.annotated.tsv
