@@ -1,1 +1,0 @@
-# gatk_gcnv_pipeline
